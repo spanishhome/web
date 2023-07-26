@@ -1,6 +1,6 @@
 <main>
- <style>
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -15,7 +15,12 @@ body {
   --gray: rgba(128, 128, 128, 0.625);
   --section: rgb(37, 37, 37);
 }
-
+body.dark {
+  --black: rgb(255, 255, 255);
+  --white: rgb(0, 0, 0);
+  --gray: rgba(128, 128, 128, 0.625);
+  --section: rgb(37, 37, 37);
+}
 main {
   display: flex;
 }
@@ -146,9 +151,8 @@ body.dark .toggle-dark-theme .icon::before {
   transform: rotate(90deg);
 }
 
- </style>
-  
-  <div id="mysidebar" class="sidebar">
+</style>
+    <div id="mysidebar" class="sidebar">
     <ul class="sidebar-navlink">
        <li>
         <a href="index.html">
@@ -162,10 +166,10 @@ body.dark .toggle-dark-theme .icon::before {
           <span>Discord</span>
         </a>
       </li>
-           <li> 
+      <li> 
         <a href="sobre.html">
-          <i class="fa-solid fa-clock-rotate-left"></i>
-          <span>Sobre Spanish Home</span>
+          <i class="fa-solid fa-heart"></i>
+          <span>Spanish Home</span>
         </a>
       </li>
       <li>
@@ -179,7 +183,7 @@ body.dark .toggle-dark-theme .icon::before {
   </div>
   <section>
     <div class="content-page">
-      <h1>SPANISH HOME</h1>
+      <h1>Hello Dashboard</h1>
     </div>
   </section>
 </main>
